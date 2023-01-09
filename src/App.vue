@@ -32,7 +32,6 @@
           v-model="search"
           required
         />
-        <button type="submit">Search</button>
       </div>
     </form>
 
@@ -109,7 +108,7 @@ export default {
     this.jsonlists = lists;
   },
 
-  methods: {
+  computed: {
     searchUser() {
       const searchTerm = this.search.toLowerCase();
       this.jsonlists.filter((list) => {
