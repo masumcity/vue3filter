@@ -1,0 +1,322 @@
+[
+  {
+    "EXT": "1000",
+    "Name": 1000
+  },
+  {
+    "EXT": "1001",
+    "Name": 1001
+  },
+  {
+    "EXT": "1103",
+    "Name": "Rumel HQ"
+  },
+  {
+    "EXT": "1104",
+    "Name": "Habib HQ"
+  },
+  {
+    "EXT": "1105",
+    "Name": "Salim HQ"
+  },
+  {
+    "EXT": "1106",
+    "Name": "Saiful Accounts HQ"
+  },
+  {
+    "EXT": "1107",
+    "Name": "Rana & Alom RMA"
+  },
+  {
+    "EXT": "1109",
+    "Name": "Sohel HQ"
+  },
+  {
+    "EXT": "1110",
+    "Name": "Monirul Islam HQ"
+  },
+  {
+    "EXT": "1111",
+    "Name": "HR HQ"
+  },
+  {
+    "EXT": "1113",
+    "Name": "RMA Reception"
+  },
+  {
+    "EXT": "1117",
+    "Name": "Zia Netgear HQ"
+  },
+  {
+    "EXT": "1115",
+    "Name": "Masum HQ"
+  },
+  {
+    "EXT": "1114",
+    "Name": "Ayon HQ"
+  },
+  {
+    "EXT": "1108",
+    "Name": "Amzad/Sumon RMA"
+  },
+  {
+    "EXT": "1112",
+    "Name": "Babu HQ"
+  },
+  {
+    "EXT": "1119",
+    "Name": "Zia Account HQ"
+  },
+  {
+    "EXT": "1120",
+    "Name": "Niaz Graphics HQ"
+  },
+  {
+    "EXT": "1121",
+    "Name": "Sahin Store HQ"
+  },
+  {
+    "EXT": "1122",
+    "Name": "Ahetesham (ValueTop) HQ"
+  },
+  {
+    "EXT": "1123",
+    "Name": "Shohel Sales HQ"
+  },
+  {
+    "EXT": "1124",
+    "Name": "Dining HQ"
+  },
+  {
+    "EXT": "1125",
+    "Name": "Sagor Uniview HQ"
+  },
+  {
+    "EXT": "1128",
+    "Name": "Gazi Online"
+  },
+  {
+    "EXT": "1129",
+    "Name": "Sabbir HQ"
+  },
+  {
+    "EXT": "1130",
+    "Name": "Imran Hossain HQ"
+  },
+  {
+    "EXT": "1131",
+    "Name": "Asieef HQ"
+  },
+  {
+    "EXT": "1132",
+    "Name": "Shova HQ"
+  },
+  {
+    "EXT": "1133",
+    "Name": "Collection 2 HQ"
+  },
+  {
+    "EXT": "1134",
+    "Name": "Ariful Islam Tipu HQ"
+  },
+  {
+    "EXT": "1118",
+    "Name": "Jamal RMA"
+  },
+  {
+    "EXT": "1135",
+    "Name": "Ripon Havit HQ"
+  },
+  {
+    "EXT": "1136",
+    "Name": "Opu HQ"
+  },
+  {
+    "EXT": "1137",
+    "Name": "Belal HQ"
+  },
+  {
+    "EXT": "1150",
+    "Name": "Omar Faruq HQ"
+  },
+  {
+    "EXT": "2100",
+    "Name": "Hasan Multiplan"
+  },
+  {
+    "EXT": "2101",
+    "Name": "RMA Multiplan"
+  },
+  {
+    "EXT": "2102",
+    "Name": "Kabir Multiplan"
+  },
+  {
+    "EXT": "2200",
+    "Name": "Pappu Gulshan"
+  },
+  {
+    "EXT": "2201",
+    "Name": "Shoag RMA Gulshan"
+  },
+  {
+    "EXT": "2300",
+    "Name": "Faruq Uttara"
+  },
+  {
+    "EXT": "2301",
+    "Name": "RMA Liton Uttara"
+  },
+  {
+    "EXT": "2400",
+    "Name": "Zaman Motijheel"
+  },
+  {
+    "EXT": "2401",
+    "Name": "Atiq Motijhil"
+  },
+  {
+    "EXT": "2501",
+    "Name": "Nazmul RMA IDB"
+  },
+  {
+    "EXT": "2502",
+    "Name": "Sarowar IDB"
+  },
+  {
+    "EXT": "2600",
+    "Name": "Sijul Motalib Plaza"
+  },
+  {
+    "EXT": "2601",
+    "Name": "RMA Motalib Plaza"
+  },
+  {
+    "EXT": "3100",
+    "Name": "Mamun Chittagong"
+  },
+  {
+    "EXT": "3102",
+    "Name": "Jamal Chittagong"
+  },
+  {
+    "EXT": "3103",
+    "Name": "Khorshed Chittagong"
+  },
+  {
+    "EXT": "3104",
+    "Name": "Moinul Chittagong"
+  },
+  {
+    "EXT": "3200",
+    "Name": "Mithu Rajshahi"
+  },
+  {
+    "EXT": "3201",
+    "Name": "Biplob RMA Rajshahi"
+  },
+  {
+    "EXT": "3601",
+    "Name": "RMA Barishal"
+  },
+  {
+    "EXT": "1116",
+    "Name": "Ashraful Hasan HQ"
+  },
+  {
+    "EXT": "1126",
+    "Name": "Tareq HQ"
+  },
+  {
+    "EXT": "3101",
+    "Name": "RMA Chittagong"
+  },
+  {
+    "EXT": "4998",
+    "Name": "Jamal Demo"
+  },
+  {
+    "EXT": "1003",
+    "Name": "Masud Store CW"
+  },
+  {
+    "EXT": "5000",
+    "Name": "MD Home"
+  },
+  {
+    "EXT": "1101",
+    "Name": "Manik HQ"
+  },
+  {
+    "EXT": "1102",
+    "Name": "Rimon HQ"
+  },
+  {
+    "EXT": "1127",
+    "Name": "Shahed RMA"
+  },
+  {
+    "EXT": "5001",
+    "Name": "Demo"
+  },
+  {
+    "EXT": "1010",
+    "Name": "RMA CW"
+  },
+  {
+    "EXT": "1002",
+    "Name": "Anwar Billing CW"
+  },
+  {
+    "EXT": "4999",
+    "Name": "Babu Mobile"
+  },
+  {
+    "EXT": "1138",
+    "Name": "Mehedi HQ"
+  },
+  {
+    "EXT": "3300",
+    "Name": "Kallol Bogura"
+  },
+  {
+    "EXT": "3301",
+    "Name": "Zahid RMA Bogura"
+  },
+  {
+    "EXT": "3400",
+    "Name": "Parvez Rangpur"
+  },
+  {
+    "EXT": "3401",
+    "Name": "RMA Rangpur"
+  },
+  {
+    "EXT": "3402",
+    "Name": "Ujjal Rangpur"
+  },
+  {
+    "EXT": "3500",
+    "Name": "Zillur Sylhet"
+  },
+  {
+    "EXT": "3501",
+    "Name": "RMA Sylhet"
+  },
+  {
+    "EXT": "3600",
+    "Name": "Lemin Barishal"
+  },
+  {
+    "EXT": "1139",
+    "Name": "Mahmudul Hasan HQ"
+  },
+  {
+    "EXT": "1011",
+    "Name": "Jakir CW"
+  },
+  {
+    "EXT": "2500",
+    "Name": "IDB"
+  }
+]
