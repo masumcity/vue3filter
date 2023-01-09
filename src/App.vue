@@ -4,7 +4,7 @@
   <div>
     <h1 class="text-red-600 text-4xl p-6">IP Phone Extensions</h1>
 
-    <form @submit.prevent="searchUser" class="flex items-center mx-8">
+    <form class="flex items-center mx-8">
       <label for="simple-search" class="sr-only">Search</label>
       <div class="relative w-full">
         <div
@@ -65,7 +65,7 @@
               </thead>
               <tbody>
                 <tr
-                  v-for="(list, index) in jsonlists"
+                  v-for="(list, index) in filtereds"
                   :key="index"
                   class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100"
                 >
@@ -77,12 +77,12 @@
                   <td
                     class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900"
                   >
-                    {{ list.Name }}
+                    {{ list.name }}
                   </td>
                   <td
                     class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap"
                   >
-                    {{ list.EXT }}
+                    {{ list.ext }}
                   </td>
                 </tr>
               </tbody>
@@ -109,11 +109,13 @@ export default {
   },
 
   computed: {
-    searchUser() {
-      const searchTerm = this.search.toLowerCase();
-      this.jsonlists.filter((list) => {
-        return list.Name.includes(searchTerm);
-      });
+    filtereds() {
+      const search = this.search.toLowerCase();
+      return this.jsonlists.filter(
+        (list) =>
+          typeof list.name === "string" &&
+          list.name.toLowerCase().includes(search)
+      );
     },
   },
 };
