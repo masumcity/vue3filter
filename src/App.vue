@@ -3,7 +3,6 @@
 <template>
   <div class="container mx-auto">
     <h1 class="text-red-600 text-4xl p-6">IP Phone Extensions</h1>
-    <Card />
 
     <form class="flex items-center mx-8">
       <label for="simple-search" class="sr-only">Search</label>
