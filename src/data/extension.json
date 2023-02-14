@@ -136,6 +136,18 @@
     "name": "Belal HQ"
   },
   {
+    "ext": "1138",
+    "name": "Mahadi Digital HQ"
+  },
+  {
+    "ext": "1139",
+    "name": "Mahamudul HQ"
+  },
+  {
+    "ext": "1144",
+    "name": "Corp Kitchen"
+  },
+  {
     "ext": "1150",
     "name": "Omar Faruq HQ"
   },
@@ -314,18 +326,6 @@
   {
     "ext": "2500",
     "name": "IDB"
-  },
-  {
-    "ext": "1144",
-    "name": "Corp Kitchen"
-  },
-  {
-    "ext": "1138",
-    "name": "Mahadi Digital HQ"
-  },
-  {
-    "ext": "1139",
-    "name": "Mahamudul HQ"
   },
   {
     "//ext": "5000",
