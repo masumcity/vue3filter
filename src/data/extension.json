@@ -316,6 +316,18 @@
     "name": "IDB"
   },
   {
+    "ext": "1144",
+    "name": "Corp Kitchen"
+  },
+  {
+    "ext": "1138",
+    "name": "Mahadi Digital HQ"
+  },
+  {
+    "ext": "1139",
+    "name": "Mahamudul HQ"
+  },
+  {
     "//ext": "5000",
     "//name": "Home"
   }
