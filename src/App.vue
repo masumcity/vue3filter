@@ -41,7 +41,7 @@
                 </tr>
               </thead>
               <tbody>
-                <tr v-for="(list, index) in filtereds" :key="index"
+                <tr v-for="(list, index) in sortedArray" :key="index"
                   class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
                   <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                     {{ index + 1 }}
@@ -90,6 +90,22 @@ export default {
           list.name.toLowerCase().includes(search)
       );
     },
+    sortedArray() {
+      return this.filtereds.sort((a, b) => {
+        const aa = Number(a.ext);
+        const bb = Number(b.ext);
+
+        if (aa > bb) {
+          return 1;
+        }
+
+        if (aa < bb) {
+          return -1;
+        }
+
+        return 0;
+      });
+    }
   },
 };
 </script>
