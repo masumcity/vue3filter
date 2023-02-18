@@ -41,7 +41,7 @@
   },
   {
     "ext": "1113",
-    "name": "RMA Reception"
+    "name": "Reception RMA"
   },
   {
     "ext": "1117",
@@ -326,6 +326,10 @@
   {
     "ext": "2500",
     "name": "IDB"
+  },
+  {
+    "ext": "1100",
+    "name": "Reception HQ"
   },
   {
     "//ext": "5000",
