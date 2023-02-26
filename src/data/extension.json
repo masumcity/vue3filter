@@ -1,335 +1,418 @@
 [
   {
     "ext": "1000",
-    "name": 1000
+    "name": 1000,
+    "branch": "Head Office"
   },
   {
     "ext": "1001",
-    "name": 1001
+    "name": 1001,
+    "branch": "Head Office"
   },
   {
     "ext": "1103",
-    "name": "Rumel HQ"
+    "name": "Rumel HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1104",
-    "name": "Habib HQ"
+    "name": "Habib HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1105",
-    "name": "Salim HQ"
+    "name": "Salim HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1106",
-    "name": "Saiful Accounts HQ"
+    "name": "Saiful Accounts HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1107",
-    "name": "Rana & Alom RMA"
+    "name": "Rana & Alom RMA",
+    "branch": "Head Office"
   },
   {
     "ext": "1109",
-    "name": "Sohel HQ"
+    "name": "Sohel HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1110",
-    "name": "Monirul Islam HQ"
+    "name": "Monirul Islam HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1111",
-    "name": "HR HQ"
+    "name": "HR HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1113",
-    "name": "Reception RMA"
+    "name": "Reception RMA",
+    "branch": "Head Office"
   },
   {
     "ext": "1117",
-    "name": "Zia Netgear HQ"
+    "name": "Zia Netgear HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1115",
-    "name": "Masum HQ"
+    "name": "Masum HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1114",
-    "name": "Ayon HQ"
+    "name": "Ayon HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1108",
-    "name": "Amzad/Sumon RMA"
+    "name": "Amzad/Sumon RMA",
+    "branch": "Head Office"
   },
   {
     "ext": "1112",
-    "name": "Babu HQ"
+    "name": "Babu HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1119",
-    "name": "Zia Account HQ"
+    "name": "Zia Account HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1120",
-    "name": "Niaz Graphics HQ"
+    "name": "Niaz Graphics HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1121",
-    "name": "Sahin Store HQ"
+    "name": "Sahin Store HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1122",
-    "name": "Ahetesham (ValueTop) HQ"
+    "name": "Ahetesham (ValueTop) HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1123",
-    "name": "Shohel Sales HQ"
+    "name": "Shohel Sales HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1124",
-    "name": "Dining HQ"
+    "name": "Dining HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1125",
-    "name": "Sagor Uniview HQ"
+    "name": "Sagor Uniview HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1128",
-    "name": "Gazi Online"
+    "name": "Gazi Online",
+    "branch": "Central Warehouse"
   },
   {
     "ext": "1129",
-    "name": "Sabbir HQ"
+    "name": "Sabbir HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1130",
-    "name": "Imran Hossain HQ"
+    "name": "Imran Hossain HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1131",
-    "name": "Asieef HQ"
+    "name": "Asieef HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1132",
-    "name": "Shova HQ"
+    "name": "Shova HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1133",
-    "name": "Collection 2 HQ"
+    "name": "Collection 2 HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1134",
-    "name": "Ariful Islam Tipu HQ"
+    "name": "Ariful Islam Tipu HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1118",
-    "name": "Jamal RMA"
+    "name": "Jamal RMA",
+    "branch": "Head Office"
   },
   {
     "ext": "1135",
-    "name": "Ripon Havit HQ"
+    "name": "Ripon Havit HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1136",
-    "name": "Opu HQ"
+    "name": "Opu HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1137",
-    "name": "Belal HQ"
+    "name": "Belal HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1138",
-    "name": "Mahadi Digital HQ"
+    "name": "Mahadi Digital HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1139",
-    "name": "Mahamudul HQ"
+    "name": "Mahamudul HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1144",
-    "name": "Corp Kitchen"
+    "name": "Corp Kitchen",
+    "branch": "Head Office"
   },
   {
     "ext": "1150",
-    "name": "Omar Faruq HQ"
+    "name": "Omar Faruq HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "2100",
-    "name": "Hasan Multiplan"
+    "name": "Hasan Multiplan",
+    "branch": "Multiplan Center"
   },
   {
     "ext": "2101",
-    "name": "RMA Multiplan"
+    "name": "RMA Multiplan",
+    "branch": "Multiplan Center"
   },
   {
     "ext": "2102",
-    "name": "Kabir Multiplan"
+    "name": "Kabir Multiplan",
+    "branch": "Multiplan Center"
   },
   {
     "ext": "2200",
-    "name": "Pappu Gulshan"
+    "name": "Pappu Gulshan",
+    "branch": "Gulshan Branch"
   },
   {
     "ext": "2201",
-    "name": "Shoag RMA Gulshan"
+    "name": "Shoag RMA Gulshan",
+    "branch": "Gulshan Branch"
   },
   {
     "ext": "2300",
-    "name": "Faruq Uttara"
+    "name": "Faruq Uttara",
+    "branch": "Uttara Branch"
   },
   {
     "ext": "2301",
-    "name": "RMA Liton Uttara"
+    "name": "RMA Liton Uttara",
+    "branch": "Uttara Branch"
   },
   {
     "ext": "2400",
-    "name": "Zaman Motijheel"
+    "name": "Zaman Motijheel",
+    "branch": "Motijheel Branch"
   },
   {
     "ext": "2401",
-    "name": "Atiq Motijhil"
+    "name": "Atiq Motijhil",
+    "branch": "Motijheel Branch"
   },
   {
     "ext": "2501",
-    "name": "Nazmul RMA IDB"
+    "name": "Nazmul RMA IDB",
+    "branch": "IDB Branch"
   },
   {
     "ext": "2502",
-    "name": "Sarowar IDB"
+    "name": "Sarowar IDB",
+    "branch": "IDB Branch"
   },
   {
     "ext": "2600",
-    "name": "Sijul Motalib Plaza"
+    "name": "Sijul Motalib Plaza",
+    "branch": "Motalib Plaza"
   },
   {
     "ext": "2601",
-    "name": "RMA Motalib Plaza"
+    "name": "RMA Motalib Plaza",
+    "branch": "Motalib Plaza"
   },
   {
     "ext": "3100",
-    "name": "Mamun Chittagong"
+    "name": "Mamun Chittagong",
+    "branch": "Chittagong Branch"
   },
   {
     "ext": "3102",
-    "name": "Jamal Chittagong"
+    "name": "Jamal Chittagong",
+    "branch": "Chittagong Branch"
   },
   {
     "ext": "3103",
-    "name": "Khorshed Chittagong"
+    "name": "Khorshed Chittagong",
+    "branch": "Chittagong Branch"
   },
   {
     "ext": "3104",
-    "name": "Moinul Chittagong"
+    "name": "Moinul Chittagong",
+    "branch": "Chittagong Branch"
   },
   {
     "ext": "3200",
-    "name": "Mithu Rajshahi"
+    "name": "Mithu Rajshahi",
+    "branch": "Rajshahi Branch"
   },
   {
     "ext": "3201",
-    "name": "Biplob RMA Rajshahi"
+    "name": "Biplob RMA Rajshahi",
+    "branch": "Rajshahi Branch"
   },
   {
     "ext": "3601",
-    "name": "RMA Barishal"
+    "name": "RMA Barishal",
+    "branch": "Barishal Branch"
   },
   {
     "ext": "1116",
-    "name": "Ashraful Hasan HQ"
+    "name": "Ashraful Hasan HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1126",
-    "name": "Tareq HQ"
+    "name": "Tareq HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "3101",
-    "name": "RMA Chittagong"
+    "name": "RMA Chittagong",
+    "branch": "Chittagong Branch"
   },
   {
     "ext": "4998",
-    "name": "Jamal Demo"
+    "name": "Jamal Demo",
+    "branch": "Chittagong Branch"
   },
   {
     "ext": "1003",
-    "name": "Masud Store CW"
+    "name": "Masud Store CW",
+    "branch": "Central Warehouse"
   },
   {
     "ext": "1101",
-    "name": "Manik HQ"
+    "name": "Manik HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1102",
-    "name": "Rimon HQ"
+    "name": "Rimon HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1127",
-    "name": "Shahed RMA"
+    "name": "Shahed RMA",
+    "branch": "Head Office"
   },
   {
     "ext": "5001",
-    "name": "Demo"
+    "name": "Demo Masum",
+    "branch": "Head Office"
   },
   {
     "ext": "1010",
-    "name": "RMA CW"
+    "name": "RMA CW",
+    "branch": "Central Warehouse"
   },
   {
     "ext": "1002",
-    "name": "Anwar Billing CW"
+    "name": "Anwar Billing CW",
+    "branch": "Central Warehouse"
   },
   {
     "ext": "4999",
-    "name": "Babu Mobile"
+    "name": "Babu Mobile",
+    "branch": "Head Office"
   },
   {
     "ext": "1138",
-    "name": "Mehedi HQ"
+    "name": "Mehedi HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "3300",
-    "name": "Kallol Bogura"
+    "name": "Kallol Bogura",
+    "branch": "Bogura Branch"
   },
   {
     "ext": "3301",
-    "name": "Zahid RMA Bogura"
+    "name": "Zahid RMA Bogura",
+    "branch": "Bogura Branch"
   },
   {
     "ext": "3400",
-    "name": "Parvez Rangpur"
+    "name": "Parvez Rangpur",
+    "branch": "Rangpur Branch"
   },
   {
     "ext": "3401",
-    "name": "RMA Rangpur"
+    "name": "RMA Rangpur",
+    "branch": "Rangpur Branch"
   },
   {
     "ext": "3402",
-    "name": "Ujjal Rangpur"
+    "name": "Ujjal Rangpur",
+    "branch": "Rangpur Branch"
   },
   {
     "ext": "3500",
-    "name": "Zillur Sylhet"
+    "name": "Zillur Sylhet",
+    "branch": "Sylhet Branch"
   },
   {
     "ext": "3501",
-    "name": "RMA Sylhet"
+    "name": "RMA Sylhet",
+    "branch": "Sylhet Branch"
   },
   {
     "ext": "3600",
-    "name": "Lemin Barishal"
+    "name": "Lemin Barishal",
+    "branch": "Barishal Branch"
   },
   {
     "ext": "1139",
-    "name": "Mahmudul Hasan HQ"
+    "name": "Mahmudul Hasan HQ",
+    "branch": "Head Office"
   },
   {
     "ext": "1011",
-    "name": "Jakir CW"
+    "name": "Jakir CW",
+    "branch": "Central Warehouse"
   },
   {
     "ext": "2500",
-    "name": "IDB"
+    "name": "IDB",
+    "branch": "IDB Branch"
   },
   {
     "ext": "1100",
-    "name": "Reception HQ"
+    "name": "Reception HQ",
+    "branch": "Head Office"
   },
   {
     "//ext": "5000",
