@@ -10,6 +10,11 @@
     "category": "Private"
   },
   {
+    "name": "Comcity CRM",
+    "url": "https://crm.comcitybd.com",
+    "category": "Public"
+  },
+  {
     "name": "Comcity CRM Admin",
     "url": "https://crmadmin.comcitybd.com",
     "category": "Private"

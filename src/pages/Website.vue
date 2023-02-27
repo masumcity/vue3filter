@@ -90,7 +90,7 @@ export default {
       const search = this.search.toLowerCase();
       return this.sitelists.filter(
         (list) =>
-          typeof list.name === "string" &&
+          typeof list.name === "string" && list.category=="Public" &&
           list.name.toLowerCase().includes(search)
       );
     },
