@@ -18,23 +18,21 @@
         </button>
         <div class="!visible hidden flex-grow basis-[100%] items-center lg:!flex lg:basis-auto"
           id="navbarSupportedContent1" data-te-collapse-item>
-          <a class="mt-2 mr-2 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:mt-0"
-            href="/">
+          <router-link to="/" class="mt-2 mr-2 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:mt-0">
             <img src="/logo.svg" alt="" loading="lazy" class="h-8" />
-          </a>
+          </router-link>
           <!-- Left links -->
           <ul class="list-style-none mr-auto flex flex-col md:pl-2 pl-0 lg:flex-row" data-te-navbar-nav-ref>
             <li class="lg:pr-2" data-te-nav-item-ref>
-              <a class="text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-zinc-400"
-                href="#" data-te-nav-link-ref> IP Phone </a>
+              <router-link to="/" class="text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-zinc-400"
+                data-te-nav-link-ref> IP Phone </router-link>
             </li>
             <li class="lg:pr-2" data-te-nav-item-ref>
-              <a class="text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
-                href="#" data-te-nav-link-ref> Web Site </a>
+              <router-link to="/website" class="text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+                href="/website" data-te-nav-link-ref> Web Site </router-link>
             </li>
             <li class="lg:pr-2" data-te-nav-item-ref>
-              <a class="text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
-                href="#" data-te-nav-link-ref> App </a>
+              <router-link to="/app" class="text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400" data-te-nav-link-ref> App </router-link>
             </li>
           </ul>
           <!-- Left links -->

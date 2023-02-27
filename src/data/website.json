@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Comcity Main Website",
+    "url": "https://comcitybd.com",
+    "category": "Public"
+  },
+  {
+    "name": "Comcity Admin Dashboard",
+    "url": "https://admindash.comcitybd.com",
+    "category": "Private"
+  },
+  {
+    "name": "Comcity CRM Admin",
+    "url": "https://crmadmin.comcitybd.com",
+    "category": "Private"
+  },
+  {
+    "name": "Comcity DB Sync",
+    "url": "https://dbsync.comcitybd.com",
+    "category": "Private"
+  },
+  {
+    "name": "Comcity Search Service",
+    "url": "https://meilisearch.comcitybd.com",
+    "category": "Private"
+  },
+  {
+    "name": "Comcity Partner Site",
+    "url": "https://partner.comcitybd.com",
+    "category": "Partner"
+  },
+  {
+    "name": "Comcity Partner Admin",
+    "url": "https://portal.comcitybd.com",
+    "category": "Private"
+  },
+  {
+    "name": "Comcity Proxy Server",
+    "url": "https://proxy.comcitybd.com",
+    "category": "Private"
+  },
+  {
+    "name": "Comcity Cool Server",
+    "url": "https://cools.comcitybd.net",
+    "category": "Private"
+  },
+  {
+    "name": "Comcity HR Server",
+    "url": "https://hr.comcitybd.net",
+    "category": "Private"
+  },
+  {
+    "name": "Comcity VAT Server",
+    "url": "https://vat.comcitybd.net",
+    "category": "Private"
+  },
+  {
+    "name": "Comcity Uptime Server",
+    "url": "https://uptime.comcitybd.net",
+    "category": "Private"
+  },
+  {
+    "name": "Havit",
+    "url": "https://havit.com.bd",
+    "category": "Public"
+  },
+  {
+    "name": "IdealUPS",
+    "url": "https://idealups.com.bd",
+    "category": "Public"
+  },
+  {
+    "name": "IRemax",
+    "url": "https://iremax.com.bd",
+    "category": "Public"
+  },
+  {
+    "name": "Netgear",
+    "url": "https://netgear.com.bd",
+    "category": "Public"
+  },
+  {
+    "name": "Netgear Store",
+    "url": "https://netgearstore.com.bd",
+    "category": "Public"
+  },
+  {
+    "name": "Rongta",
+    "url": "https://rongta.com.bd",
+    "category": "Public"
+  },
+  {
+    "name": "Shop ZkTeco",
+    "url": "https://shopzkteco.com.bd",
+    "category": "Public"
+  },
+  {
+    "name": "valuetop Main",
+    "url": "https://valuetop.com.bd",
+    "category": "Public"
+  },
+  {
+    "name": "Value Top Net",
+    "url": "https://valuetop.net",
+    "category": "Public"
+  }
+]
