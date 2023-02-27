@@ -18,27 +18,95 @@
         </button>
         <div class="!visible hidden flex-grow basis-[100%] items-center lg:!flex lg:basis-auto"
           id="navbarSupportedContent1" data-te-collapse-item>
-          <router-link to="/" class="mt-2 mr-2 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:mt-0">
+          <router-link to="/"
+            class="mt-2 mr-2 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:mt-0">
             <img src="/logo.svg" alt="" loading="lazy" class="h-8" />
           </router-link>
           <!-- Left links -->
           <ul class="list-style-none mr-auto flex flex-col md:pl-2 pl-0 lg:flex-row" data-te-navbar-nav-ref>
             <li class="lg:pr-2" data-te-nav-item-ref>
-              <router-link to="/" class="text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-zinc-400"
+              <router-link to="/"
+                class="text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-zinc-400"
                 data-te-nav-link-ref> IP Phone </router-link>
             </li>
             <li class="lg:pr-2" data-te-nav-item-ref>
-              <router-link to="/website" class="text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+              <router-link to="/website"
+                class="text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
                 href="/website" data-te-nav-link-ref> Web Site </router-link>
             </li>
             <li class="lg:pr-2" data-te-nav-item-ref>
-              <router-link to="/app" class="text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400" data-te-nav-link-ref> App </router-link>
+              <router-link to="/app"
+                class="text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+                data-te-nav-link-ref> App </router-link>
             </li>
+            <li v-if="login" class="lg:pr-2" data-te-nav-item-ref>
+              <router-link to="/admin"
+                class="text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+                data-te-nav-link-ref> Admin </router-link>
+            </li>
+            <li v-if="login" class="lg:pr-2" data-te-nav-item-ref>
+              <button @click="logout"
+                class="text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+                data-te-nav-link-ref> Logout </button>
+            </li>
+            <li v-else class="lg:pr-2" data-te-nav-item-ref>
+              <router-link to="/login"
+                class="text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+                data-te-nav-link-ref> Login </router-link>
+            </li>
+
           </ul>
           <!-- Left links -->
+        </div>
+        <!-- Right elements -->
+        <div class="relative flex items-center">
+          <a class="mr-4 text-neutral-500 hover:text-neutral-700 focus:text-neutral-700 disabled:text-black/30 dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 [&.active]:text-black/90 dark:[&.active]:text-neutral-400"
+            href="#">
+            {{ name }}
+          </a>
         </div>
         <!-- Collapsible wrapper -->
       </div>
     </div>
   </nav>
 </template>
+
+<script>
+import router from '@/router';
+export default {
+  data() {
+    return {
+      name: localStorage.getItem("name"),
+      login: false
+    }
+  },
+
+  mounted() {
+    if (localStorage.getItem('name')) {
+      this.name = localStorage.getItem('name');
+    }
+
+    this.checkauth();
+  },
+
+  methods: {
+    checkauth() {
+      setInterval(() => {
+        if (localStorage.getItem("login") == "true") {
+          const name = localStorage.getItem("name");
+          this.name = name;
+          this.login = true;
+        }
+      }, 1000);
+    },
+
+    logout() {
+      this.login = false;
+      localStorage.removeItem('name');
+      localStorage.removeItem('login');
+      router.push('/login');
+    }
+  }
+
+}
+</script>

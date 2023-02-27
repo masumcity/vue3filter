@@ -2,111 +2,176 @@
   {
     "name": "Comcity Main Website",
     "url": "https://comcitybd.com",
-    "category": "Public"
+    "category": "Public",
+    "hosted": "Digital Ocean APP",
+    "ip": "king-prawn-app-28zg2.ondigitalocean.app"
   },
   {
     "name": "Comcity Admin Dashboard",
     "url": "https://admindash.comcitybd.com",
-    "category": "Private"
+    "category": "Private",
+    "hosted": "Digital Ocean",
+    "ip": "159.223.61.248"
   },
   {
     "name": "Comcity CRM",
     "url": "https://crm.comcitybd.com",
-    "category": "Public"
+    "category": "Public",
+    "hosted": "Netlify",
+    "ip": "cctlcrm.netlify.app"
   },
   {
     "name": "Comcity CRM Admin",
     "url": "https://crmadmin.comcitybd.com",
-    "category": "Private"
+    "category": "Private",
+    "hosted": "HQ",
+    "ip": "192.168.2.6:1337"
   },
   {
     "name": "Comcity DB Sync",
     "url": "https://dbsync.comcitybd.com",
-    "category": "Private"
+    "category": "Private",
+    "hosted": "HQ",
+    "ip": "192.168.2.3"
   },
   {
     "name": "Comcity Search Service",
     "url": "https://meilisearch.comcitybd.com",
-    "category": "Private"
+    "category": "Private",
+    "hosted": "Digital Ocean",
+    "ip": "159.223.61.248"
   },
   {
     "name": "Comcity Partner Site",
     "url": "https://partner.comcitybd.com",
-    "category": "Partner"
+    "category": "Partner",
+    "hosted": "Netlify",
+    "ip": "gregarious-bubblegum-f5f149.netlify.app"
   },
   {
     "name": "Comcity Partner Admin",
     "url": "https://portal.comcitybd.com",
-    "category": "Private"
+    "category": "Private",
+    "hosted": "Digital Ocean",
+    "ip": "159.223.61.248"
   },
   {
     "name": "Comcity Proxy Server",
     "url": "https://proxy.comcitybd.com",
-    "category": "Private"
+    "category": "Private",
+    "hosted": "HQ",
+    "ip": "192.168.1.17:81"
   },
   {
     "name": "Comcity Cool Server",
     "url": "https://cools.comcitybd.net",
-    "category": "Private"
+    "category": "Private",
+    "hosted": "HQ",
+    "ip": "192.168.2.2"
   },
   {
     "name": "Comcity HR Server",
     "url": "https://hr.comcitybd.net",
-    "category": "Private"
+    "category": "Private",
+    "hosted": "HQ",
+    "ip": "192.168.1.19"
   },
   {
     "name": "Comcity VAT Server",
     "url": "https://vat.comcitybd.net",
-    "category": "Private"
+    "category": "Private",
+    "hosted": "HQ",
+    "ip": "192.168.2.7"
   },
   {
     "name": "Comcity Uptime Server",
     "url": "https://uptime.comcitybd.net",
-    "category": "Private"
+    "category": "Private",
+    "hosted": "HQ",
+    "ip": "192.168.2.2"
   },
   {
     "name": "Havit",
     "url": "https://havit.com.bd",
-    "category": "Public"
+    "category": "Public",
+    "hosted": "Vercel",
+    "ip": "cname.vercel-dns.com"
   },
   {
     "name": "IdealUPS",
     "url": "https://idealups.com.bd",
-    "category": "Public"
+    "category": "Public",
+    "hosted": "Vercel",
+    "ip": "cname.vercel-dns.com"
   },
   {
     "name": "IRemax",
     "url": "https://iremax.com.bd",
-    "category": "Public"
+    "category": "Public",
+    "hosted": "Vercel",
+    "ip": "cname.vercel-dns.com"
   },
   {
     "name": "Netgear",
     "url": "https://netgear.com.bd",
-    "category": "Public"
+    "category": "Public",
+    "hosted": "HQ",
+    "ip": "192.168.1.8:8002"
   },
   {
     "name": "Netgear Store",
     "url": "https://netgearstore.com.bd",
-    "category": "Public"
+    "category": "Public",
+    "hosted": "HQ",
+    "ip": "192.168.1.8:8002"
+  },
+  {
+    "name": "Netgear Mail",
+    "url": "https://mail.netgearstore.com.bd",
+    "category": "Public",
+    "hosted": "HQ",
+    "ip": "192.168.1.16"
   },
   {
     "name": "Rongta",
     "url": "https://rongta.com.bd",
-    "category": "Public"
+    "category": "Public",
+    "hosted": "Vercel",
+    "ip": "cname.vercel-dns.com"
   },
   {
     "name": "Shop ZkTeco",
     "url": "https://shopzkteco.com.bd",
-    "category": "Public"
+    "category": "Public",
+    "hosted": "Netlify",
+    "ip": "quiet-peony-d7cb91.netlify.app"
   },
   {
-    "name": "valuetop Main",
+    "name": "Value Top Main",
     "url": "https://valuetop.com.bd",
-    "category": "Public"
+    "category": "Public",
+    "hosted": "Netlify",
+    "ip": "valuetop.netlify.app"
   },
   {
     "name": "Value Top Net",
     "url": "https://valuetop.net",
-    "category": "Public"
+    "category": "Public",
+    "hosted": "Netlify",
+    "ip": "valuetop.netlify.app"
+  },
+  {
+    "name": "Comcity Download",
+    "url": "https://snom.comcitybd.net",
+    "category": "Public",
+    "hosted": "HQ",
+    "ip": "192.168.2.2"
+  },
+  {
+    "name": "Comcity Net Mail",
+    "url": "https://mail.netgearstore.net",
+    "category": "Public",
+    "hosted": "HQ",
+    "ip": "192.168.1.16"
   }
 ]
