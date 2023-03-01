@@ -415,6 +415,16 @@
     "branch": "Head Office"
   },
   {
+    "ext": "1140",
+    "name": "Technical HQ",
+    "branch": "Head Office"
+  },
+  {
+    "ext": "1141",
+    "name": "Tareque Tender HQ",
+    "branch": "Head Office"
+  },
+  {
     "//ext": "5000",
     "//name": "Home"
   }
