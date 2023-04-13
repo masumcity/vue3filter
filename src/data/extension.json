@@ -425,6 +425,42 @@
     "branch": "Head Office"
   },
   {
+    "ext": "1142",
+    "name": "Homaun Kabir",
+    "branch": "Head Office"
+  },
+  {
+    "ext": "1143",
+    "name": "Meeting Room",
+    "branch": "Head Office"
+  },
+  {
+    "ext": "1144",
+    "name": "Corp Kitchen",
+    "branch": "Head Office"
+  },
+  {
+    "ext": "1145",
+    "name": "Shushavis Das",
+    "branch": "Head Office"
+  },
+  {
+    "ext": "1146",
+    "name": "Najmul",
+    "branch": "Head Office"
+  },
+  {
+    "ext": "1147",
+    "name": "Manrurul Alam",
+    "branch": "Head Office"
+  },
+  {
+    "ext": "1148",
+    "name": "Solayman",
+    "branch": "Head Office"
+  },
+  
+  {
     "//ext": "5000",
     "//name": "Home"
   }
